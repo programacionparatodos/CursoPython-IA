@@ -1,5 +1,5 @@
 # ==========================================
-# 4_entrada_salida -> entrada.py
+# 4_entrada_salida -> 4_1_entrada.py
 # ==========================================
 
 # ? La función input() SIEMPRE recibe los datos del usuario como texto (str).

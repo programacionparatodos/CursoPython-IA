@@ -4,6 +4,10 @@
 # ? Objetivo: Integrar variables, constantes, entradas, salidas y casting de tipos.
 # ? Dinámica: Crear una historia multicultural interactiva simulando la participación de la clase.
 
+# ==============================================================================
+# * MINI PROYECTO 1: CREANDO UNA HISTORIA LOCA INTERCULTURAL
+# ==============================================================================
+
 # ==========================================
 # * 1. CONFIGURACIÓN INICIAL (Constantes)
 # ==========================================

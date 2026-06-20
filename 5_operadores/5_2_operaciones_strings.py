@@ -1,5 +1,5 @@
 # ==============================================================================
-# 5_operadores -> operaciones_strings.py
+# 5_operadores -> 5_2_operaciones_strings.py
 # ==============================================================================
 
 # ==============================================================================
@@ -347,7 +347,7 @@ lema = "Vengadores Unidos"
 
 # * Rompemos el string en partes individuales usando sus espacios como guillotina
 lista_palabras = lema.split()
-print("Texto fragmentado con .split():", lista_palabras) 
+print("Texto fragmentado con .split():", lista_palabras)
 
 # ------------------------------------------------------------------------------
 # 🚀 REFUERZO POST-CLASE: Ejemplos Extra para Practicar en Casa

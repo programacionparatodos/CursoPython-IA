@@ -1,5 +1,5 @@
 # ==========================================
-# 4_entrada_salida -> salida.py
+# 4_entrada_salida -> 4_2_salida.py
 # ==========================================
 
 # ? La función print() se usa para mostrar información en la consola.
@@ -34,9 +34,6 @@ print("Mi mascota se llama " + nombre + " y tiene " + str(edad) + " años.")
 # ? Reemplaza las llaves {} por los valores pasados en orden dentro de .format().
 # ? Era la forma estándar antes de que existieran las f-strings.
 print("Mi mascota se llama {} y tiene {} años.".format(nombre, edad))
-
-
-
 
 
 # * 5. PARÁMETROS AVANZADOS: sep Y end
