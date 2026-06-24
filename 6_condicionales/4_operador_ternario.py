@@ -12,7 +12,7 @@
 # ? Caso 1: Verificar el estado visual de una habitación en el sistema del hotel
 habitacion_limpia = True
 
-# * Forma tradicional en 4 líneas (Comentada para comparar)
+# * Forma tradicional
 
 
 # * Enfoque con Operador Ternario: Compacto y directo
