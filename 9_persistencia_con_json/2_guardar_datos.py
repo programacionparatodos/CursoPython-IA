@@ -35,19 +35,26 @@ print("--- 2.1: Análisis de Sintaxis y Creación de Archivo Plano ---")
 
 
 # * Diccionario en la memoria RAM que representa los ajustes elegidos por un usuario
-ajustes_aplicacion = {
-    "volumen_musica": 75,
-    "pantalla_completa": False,
-    "idioma_interfaz": "Español"
-}
+
+inventario_sistema = [
+    {"id": 1, "nombre": "Auto a Control Remoto", "stock": 12},
+    {"id": 2, "nombre": "Muñeca Articulada", "stock": 8},
+    {"id": 3, "nombre": "Bloques de Construcción", "stock": 25}
+]
+
+# ajustes_aplicacion = {
+#     "volumen_musica": 75,
+#     "pantalla_completa": False,
+#     "idioma_interfaz": "Español"
+# }
 
 print("\n--- 2.2: Exportación de Estructuras Complejas con JSON ---")
-print(f"Estructura original en la memoria RAM (Volátil): {ajustes_aplicacion}")
+print(f"Estructura original en la memoria RAM (Volátil): {inventario_sistema}")
 
 # * Aplicamos la sintaxis aprendida: abrimos en modo escritura ("w") y asignamos el alias 'archivo_disco'
 with open("configuracion.json", "w") as archivo_disco:
     # * Traducimos el diccionario de la RAM y lo inyectamos directamente al archivo físico
-    json.dump(ajustes_aplicacion, archivo_disco)
+    json.dump(inventario_sistema, archivo_disco)
 
 print("¡Éxito absoluto! Los datos complejos han sido guardados en 'configuracion.json'.")
 print("Puedes cerrar la consola con total seguridad; tus datos ya no se perderán.")
