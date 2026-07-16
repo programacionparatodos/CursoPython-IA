@@ -1,0 +1,44 @@
+[
+    {
+        "alias": "Hulk",
+        "salud": 100,
+        "victorias": 1,
+        "tipo": "Guerrero",
+        "extra": "Puños"
+    },
+    {
+        "alias": "Capitán América",
+        "salud": 100,
+        "victorias": 0,
+        "tipo": "Guerrero",
+        "extra": "Escudo"
+    },
+    {
+        "alias": "Doctor Strange",
+        "salud": 100,
+        "victorias": 0,
+        "tipo": "Hechicero",
+        "extra": 5
+    },
+    {
+        "alias": "Scarlet Witch",
+        "salud": 100,
+        "victorias": 0,
+        "tipo": "Hechicero",
+        "extra": 100
+    },
+    {
+        "alias": "Iron Man",
+        "salud": 100,
+        "victorias": 2,
+        "tipo": "Cientifico",
+        "extra": 40
+    },
+    {
+        "alias": "Doc Ock",
+        "salud": 100,
+        "victorias": 0,
+        "tipo": "Cientifico",
+        "extra": 100
+    }
+]
