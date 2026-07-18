@@ -1,7 +1,7 @@
 # 1. pip --version
 # 2. pip install groq
 # 3. Obtener la API Key (console.groq.com)# 
-# API KEY: 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
+# API KEY: 'Reemplazas tu clave'
 
 from groq import Groq
 

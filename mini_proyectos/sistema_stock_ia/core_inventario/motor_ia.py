@@ -1,6 +1,6 @@
 from groq import Groq
 
-cliente = Groq(api_key='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')
+cliente = Groq(api_key='GROQ_API_KEY')
 
 def predecir_demanda_futura(historial_ventas):
     if not historial_ventas:
